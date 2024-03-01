@@ -1,0 +1,4290 @@
+body{
+    font-size: 12px;
+    font-family: sans-serif;
+    /* background-color: black; */
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+    
+
+
+}
+
+#navi{
+    background-color: black;
+}
+
+p{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-size: 16px;
+    font-family: cursive;
+}
+span{
+    color: #2bd6b2;
+}
+button a{
+    text-decoration: none;
+    color: #cdcdb6;
+}
+
+
+
+nav{
+  /* margin: 10px auto 0; */
+  position: relative;
+  width: 580px;
+  height: 50px;
+  left: 930px;
+  background-color: black;
+  border-radius: 8px;
+  font-size: 0; 
+}
+nav a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .animation1{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all.5s ease 0s;
+    border-radius: 8px;
+
+}
+a:nth-child(1){
+    width: 100px;
+}
+a:nth-child(2){
+    width: 100px;
+}
+a:nth-child(3){
+    width: 100px;
+}
+a:nth-child(4){
+    width: 100px;
+}
+a:nth-child(5){
+    width: 100px;
+}
+nav.start-home,a:nth-child(1):hover~.animation1{
+    width: 100px;
+    left: 0;
+    background-color: #1abc9c;
+
+
+}
+nav.start-About,a:nth-child(2):hover~.animation1{
+    width: 110px;
+    left: 100;
+    background-color:#e74c3c;
+    
+
+}
+nav.start-contact,a:nth-child(3):hover~.animation1{
+    width: 100px;
+    left: 210;
+    background-color: #3498db;
+}
+nav.start-blog,a:nth-child(4):hover~.animation1{
+    width: 100px;
+    left: 300;
+    background-color: #1abc9c;
+    
+
+}
+nav.start-portfolio,a:nth-child(5):hover~.animation1{
+    width: 100px;
+    left: 400;
+    background-color: #1abc54;
+    
+
+}
+.sec1{
+    width: 100%;
+    height: 1100px;
+    border: 1px solid bisque;
+    background-color: white;
+}
+.cir1{
+    width: 328px;
+    height: 328px;
+    border-radius: 500px;
+    background-image: url(hgghh.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    left: 300px;
+    animation: cir1;
+animation-duration: 5s;
+animation-delay: 2s;
+}
+
+
+@keyframes cir1{
+0%{
+    transform: translate(-300px) rotate(360deg);
+}
+
+100%{
+    transform: translateX(0) rotate(0deg);
+}
+
+}
+
+.cir2{
+    width: 328px;
+    height: 328px;
+    border-radius: 500px;
+    background-image: url(ghhghgh.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    top: -230px;
+    left: 900px;
+    animation: cir2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes cir2{
+    from{
+        transform: translateX(300px) rotate(-360deg);
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+.cir3{
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 100px;
+    background-color: #cdcdb6;
+    position: relative;
+    top: -150px;
+    left: 300px;
+    animation: cir3;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes cir3{
+    from{
+        transform: translateY(300px) ;
+    }
+
+
+
+
+}
+
+
+.cir4{
+    width: 400px;
+    height: 400px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    background-position: 50% 50%;
+    object-fit: cover;
+    /* vertical-align: middle; */
+    background-size: cover;
+    position: relative;
+    top: -500px;
+    left: 550px;
+    align-items: center;
+    animation: cir4;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes cir4{
+    from{
+        transform: translateX(-300px) rotate(-360deg);
+    }
+
+
+
+
+}
+
+
+
+.cir4 img{
+    width: 370px;
+    height: 370px;
+    border-radius: 500px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+} 
+.cir5{
+    width: 250px;
+    height: 258px;
+    border-radius: 500px;
+    background-image: url(ghhhghhh.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    top: -750px;
+    left: 1000px;
+    animation: cir5;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes cir5{
+    from{
+        transform: translateX(300px) rotate(-360deg);
+    }
+
+
+
+
+}
+
+
+h2{
+    width: 621px;
+    height: 198px;
+    font-size: 38px;
+    text-align: center;
+    position: relative;
+    top:-750px ;
+    left: 450px;
+    color: #b2a289;
+    font-family:  sans-serif;
+    line-height: 1.2;
+    font-weight: 500;
+    
+    /* left: 600px; */
+}
+.para1{
+    position: relative;
+    top: -800px;
+    color: black;
+}
+button{
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: -800px;
+    left: 680px;
+    border-radius: 5px;
+    color: #cdcdb6;
+    font-size: 12px;
+    border-color: #cdcdb6;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #9a9a84;
+    color: white ;
+
+}
+
+.sec2{
+    height: 650px;
+    /* border: 1px solid bisque; */
+    background-color: white;
+    position: relative;
+    background-image: url(rrrr-min.jpg);
+    object-fit: cover;
+   background-position:  50% 50%;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+h3{
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    
+}
+.sec02{
+    width: 1250px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    left: 20px;
+    top: -80px;
+}
+
+.start{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    color: black;
+    animation: start;
+    animation-duration: 10s;
+    transition: 1s;
+}
+@keyframes start{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateX(500px); */
+    }
+}
+.nail{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    animation: start;
+    animation-duration: 10s;
+    transition: 1s;
+
+@keyframes start{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateX(500px); */
+    }
+}
+}
+.help{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    animation: help;
+    animation-duration: 10s;
+    transition: 1s;
+}
+
+@keyframes help{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.pick{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    animation: start;
+    animation-duration: 10s;
+    transition: 1s;
+}
+@keyframes start{
+from{
+    transform: translateX(-500px);
+
+}
+to{
+    /* transform: translateX(500px); */
+}
+}
+.get{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    animation: help;
+    animation-duration: 10s;
+    transition: 1s;
+}
+
+@keyframes help{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.list{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    background-color: white;
+    animation: help;
+    animation-duration: 10s;
+    transition: 1s;
+}
+
+@keyframes help{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
+    left:20px ;
+}
+.st{
+   position: relative;
+   left: -45px;
+   text-align: left;
+   font-size: 12px;
+   line-height: 2;
+    
+
+}
+.sec3{
+    height: 800px;
+}
+.crii1{
+    width: 450px;
+    height: 450px;
+    background-image: url(dfdf.jpg);
+    border-radius: 500px;
+    object-fit: cover;
+    background-size: cover;
+    vertical-align: middle;
+    background-position: 50% 50%;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    animation: crii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes crii1{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.crii2{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    align-items: center;
+    position: relative;
+    left: 800px;
+    top: -400px;
+    animation: crii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes crii1{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.white{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 500px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.crii3{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-image: url(gffgfgfgfg.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 1000px;
+    top: -500px;
+    animation: crii4;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes crii4{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.crii4{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 800px;
+    top: -450px;
+    animation: crii4;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes crii4{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.crii4 img{
+    width: 280px;
+    height: 280px;
+    border-radius: 500px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.crii5{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 1000px;
+    top: -250px;
+    animation: crii5;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes crii5{
+    from{
+        transform: translateX(500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+.forme{
+    position: relative;
+    top: 50px;
+    /* left: -500px; */
+    animation: forme;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 7s;
+}
+
+@keyframes forme{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+.how{
+    color: black;
+    position: relative;
+    left: 400px;
+    text-align: left;
+    letter-spacing: 3;
+
+}
+.paraa{
+    color: black;
+    position: relative;
+    top: -850px;
+    left: 400px;
+    font-size: 14px;
+    text-align: left;
+}
+.forme button{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    color: #cdcdb6;
+    left: 400px;
+    border-color: #cdcdb6;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    /* top: -20px; */
+}
+.color{
+    width: 1500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -580px;
+    background-color: #cdcdb6;
+}
+.wed{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: black;
+    left: 450px;
+    letter-spacing: 2;
+
+    
+}
+.Lorem{
+    position: relative;
+    top: -110px;
+    font-size: 11px;
+    left: 6px;
+    justify-content: center;
+    color: black;
+    line-height: 2;
+}
+.box{
+    width: 1500px;
+    height: 200px;
+    /* border: 1px solid black; */
+    background-color: #f2f2f2;
+    position: relative;
+    top: -600px;
+    
+}
+#Planning{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 280px;
+    top: -1080;
+    background-color: white;
+    border-radius: 20px;
+    animation: Planning;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 10s;
+}
+
+@keyframes Planning{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#hug{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-image: url(beautiful-bride-with-her-husband-park_1157-19025.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+#party{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 600px;
+    top: -1480px;
+    background-color: white;
+    border-radius: 20px;
+    animation: Planning;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 10s;
+}
+
+@keyframes Planning{
+    from{
+        transform: translateX(-500px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+    
+
+
+
+#folour{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-image: url(bows-rope-twine-pink-bouquets-white-chairs_8353-793.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#photo{
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 920px;
+    top: -1880px;
+    background-color: white;
+    border-radius: 20px;
+    animation: Planning;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 10s;
+}
+
+@keyframes Planning{
+    from{
+        transform: translateY(200px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+
+#ring{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-image: url(groom-holds-bride-s-hands-where-are-two-wedding-rings_8353-10454.jpg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 50px;
+    top: 20px;
+
+}
+.box button{
+    position: absolute;
+    top: 150px;
+    border-color: #cdcdb6;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    border-color: #cdcdb6;
+    animation: Planning;
+    animation-duration: 5s;
+    transition: 5s;
+    animation-delay: 10s;
+}
+
+@keyframes Planning{
+    from{
+        transform: translateY(200px);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#planning h4{
+    position: relative;
+    left: 110px;
+    top: 15px;
+    
+}
+#party h4{
+    position: relative;
+    left: 95px;
+    top: 15px;
+}
+#photo h4{
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
+.amet{
+    font-size: 12px;
+    color: black;
+    letter-spacing: 1;
+    
+}
+.sec4{
+    width: 1500px;
+    height: 1250px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 1000px;
+}
+#criii1{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    background-image: url(vccvcv.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 700px;
+    top: 50px;
+    animation: criii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii1{
+    from{
+        transform: translateX(500px) rotateZ(600deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii2{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 400px;
+    animation: criii2;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii2{
+    from{
+        transform: translateX(-500px) rotateZ(6000deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii3{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 700px;
+    animation: criii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii1{
+    from{
+        transform: translateX(-500px) rotateZ(600deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii3i{
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+
+}
+#criii4{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    background-image: url(cvccv.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 850px;
+    top: -230px;
+    animation: criii4;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii4{
+    from{
+        transform: translateX(500px) rotateZ(600deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii5{
+    width: 500px;
+    height: 500px;
+    border-radius: 500px;
+    background-image: url(vbvb-min.jpg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    vertical-align: middle;
+    background-size: cover;
+    position: relative;
+    left: 400px;
+    top: -280px;
+    animation: criii5;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii5{
+    from{
+        transform: translateX(-500px) rotateZ(600deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii6{
+    width: 500px;
+    height: 300px;
+    /* border: 0.5px solid black; */
+    position: absolute;
+    border-radius: 25px;
+    top: 935px;
+    left: 645px;
+    background-color: white;
+    color: black;
+    animation: criii6;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criii6{
+    from{
+        transform: translateX(500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criii6 h1{
+    font-size: 36px;
+    justify-content: left;
+    position: relative;
+    left: 30px;
+}
+.sap{
+    color: black;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
+    left: 37px;
+    line-height: 2.5;
+    justify-content: left;
+}
+#criii6 button{
+    height: 40px;
+    border-color: #cdcdb6;
+    position: absolute;
+    left: 38px;
+    top: 200px;
+    justify-content: left;
+}
+.sec5{
+    width: 1500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 1000px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(pexelsphoto931162.jpeg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    background-size: cover;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.box3{
+    width: 1100px;
+    height: 500px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    
+
+
+
+}
+.out{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    /* left: 200px; */
+    background-image: url(pexelsphoto1819179.jpeg);
+    object-fit: contain;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+.huge{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    /* left: 200px; */
+    background-image: url(pexelsphoto1940583.jpeg);
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+#you{
+    font-size: 12px;
+    letter-spacing: 3;
+    justify-content: start;
+    position: relative;
+    top: 20px;
+}
+#beyond{
+    font-size: 10px;
+    line-height: 2;
+    position: relative;
+    top: -50px;
+    left: -30px;
+    letter-spacing: -1;
+}
+#abou{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    left: -130px;
+}
+.we{
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid black; */
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    /* left: 200px; */
+
+}
+#more{
+    width: 110px;
+    height: 30px;
+    position: relative;
+    top: -80px;
+    left: 1px;
+    background-color: transparent;
+    border-color:#cdcdb6 ;
+    color: black;
+}
+#more:hover{
+    background-color: #cdcdb6;
+    color: black;
+}
+#more:hover a{
+  color: black;
+}
+.sec6{
+    width: 1500px;
+    height: 1000px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 1000px;
+}
+#criiii1{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-image:url(jhhjjhj.jpg) ;
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    animation: criiii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criiii1{
+    from{
+        transform: translateX(-500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criiii2{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: relative;
+    left:600px ;
+    top: -120px;
+    background-color: #cdcdb6;
+    animation: criiii2;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criiii2{
+    from{
+        transform: translateX(-500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+#criiii2i{
+    width: 80px;
+    height: 80px;
+    border-radius: 500px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+#criiii3{
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 400px;
+    top: 10px;
+    animation: criiii3;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criiii3{
+    from{
+        transform: translateX(-500px) rotateZ(360deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+#criiii3i{
+    width: 280px;
+    height: 280px;
+    border-radius: 500px;
+    background-image: url(hgghhg5.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}
+#criiii4{
+    width: 450px;
+    height: 450px;
+    border-radius: 500px;
+    background-image: url(gffgfgfgfg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    left: 670px;
+    top: -130px;
+    animation: criiii4;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criiii4{
+    from{
+        transform: translateX(500px) rotateZ(-360deg);
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+#criiii5{
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 350px;
+    top: -340px;
+    animation: criiii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes criiii1{
+    from{
+        transform: translateX(-500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#lastbox{
+    width: 350px;
+    height: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 800px;
+    top: -1150px;
+    justify-content: left;
+    animation: lastbox;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 11s;
+}
+
+@keyframes lastbox{
+    from{
+        transform: translateX(500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+#dress{
+    font-size: 35px;
+    position: relative;
+    left: -190px;
+    top: -10px;
+    line-height: 1.2;
+}
+#sap{
+    position: relative;
+    left: -65px;
+    top: -120px;
+    font-size: 13px;
+    line-height: 2;
+}
+#le{
+    position: relative;
+    top: -140px;
+    left: 6px;
+    background-color: #cdcdb6;
+    color: black;
+
+}
+#le:hover{
+    background-color: black;
+    color: white;
+}
+#le a{
+   color: white;
+   border: none;
+}
+#sec7{
+    width: 1500px;
+    height: 1000px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 1000px;
+    background-color: #cdcdb6;
+}
+#criiiii1{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-color: #ebebdf;
+    position: relative;
+    left: 360px;
+    top: 50px;
+    animation: criiiii1;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 12s;
+}
+
+@keyframes criiiii1{
+    from{
+        transform: translateX(-500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+    
+
+
+#criiiii1i{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 40px;
+    top: 40px;
+
+}
+#criiiii2{
+    width: 550px;
+    height: 550px;
+    border-radius: 500px;
+    background-image: url(jhjhjhjh.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    left: 580px;
+    top: -100px;
+    animation: criiiii2;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 12s;
+}
+
+@keyframes criiiii2{
+    from{
+        transform: translateX(500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+
+
+#criiiii3{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-color: #ebebdf;
+    position: relative;
+    left: 960px;
+    top: -220px;
+    animation: criiiii3;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 12s;
+}
+
+@keyframes criiiii3{
+    from{
+        transform: translateX(500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criiiii4{
+    width: 130px;
+    height: 130px;
+    border-radius: 500px;
+    background-color:#ebebdf;
+    position: relative;
+    left: 840px;
+    top: -200px;
+    animation: criiiii4;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 12s;
+}
+
+@keyframes criiiii4{
+    from{
+        transform: translateX(500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#criiiii4i{
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    background-color: #cdcdb6;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#lastform{
+    width: 500px;
+    border-radius: 15px;
+    height: 500px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 300px;
+    top: -640px;
+    background-color: white;
+    animation: lastform;
+    animation-duration: 5s;
+    transition: 1s;
+    animation-delay: 12s;
+}
+
+@keyframes lastform{
+    from{
+        transform: translateX(-500px) ;
+
+    }
+    to{
+        /* transform: translateY(500px); */
+    }
+}
+
+#join{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+form{
+    margin-left:20px ;
+    font-size: 14px;
+
+
+}
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 400px;
+    padding: 5px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+.input-group input:focus{
+    outline: none;
+}
+
+#form #bt{
+    background-color: #cdcdb6;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: black;
+    width: 400px;
+    border: none;
+}
+#form #bt:hover{
+    background-color: black;
+    color: white;
+}
+
+#message{
+    width: 400px;
+    height: 100px;
+    background-color: whitesmoke;
+    justify-content: start;
+    /* border: none; */
+    
+}
+.sec8{
+    width: 1500px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    top: 1000px;
+}
+.error{
+    color: rgb(242,18,18);
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.input-group.success input{
+    border-color:#0cc477;
+}
+.input-group.error input{
+    border-color: rgb(242,18,18);
+}
+
+#foot{
+    color: white;
+    position: relative;
+    left: 550px;
+}
+
+
+@media screen and (max-width:769px) {
+    body{
+        font-size: 12px;
+        font-family: sans-serif;
+        /* background-color: black; */
+        overflow-x: hidden;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+
+    }
+    #navi{
+        background-color: black;
+        width: 100%;
+        gap: 1px;
+
+    }
+    
+    p{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 16px;
+        font-family: cursive;
+    }
+    span{
+        color: #2bd6b2;
+    }
+    button a{
+        text-decoration: none;
+        color: #cdcdb6;
+    }
+    
+    
+    
+    nav{
+        /* width: 100%; */
+      /* margin: 10px auto 0; */
+      position: relative;
+      /* width: 580px; */
+      height: 50px;
+      left: -8px;
+      background-color: black;
+      border-radius: 8px;
+      font-size: 0; 
+    } 
+    nav a{
+        line-height: 50px;
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    nav .animation1{
+        position: absolute;
+        height: 100%;
+        /* width: 100%; */
+        top: 0;
+        z-index: 0;
+        transition: all.5s ease 0s;
+        border-radius: 8px;
+    
+    }
+    a:nth-child(1){
+        width: 80px;
+    }
+    a:nth-child(2){
+        width: 100px;
+    }
+    a:nth-child(3){
+        width: 100px;
+    }
+    a:nth-child(4){
+        width: 100px;
+    }
+    a:nth-child(5){
+        width: 100px;
+    }
+    nav.start-home,a:nth-child(1):hover~.animation1{
+        width: 90px;
+        left: 0;
+        background-color: #1abc9c;
+    
+    
+    }
+    nav.start-About,a:nth-child(2):hover~.animation1{
+        width: 100px;
+        left: 100;
+        background-color:#e74c3c;
+        
+    
+    }
+    nav.start-contact,a:nth-child(3):hover~.animation1{
+        width: 100px;
+        left: 210;
+        background-color: #3498db;
+    }
+    nav.start-blog,a:nth-child(4):hover~.animation1{
+        width: 100px;
+        left: 300;
+        background-color: #1abc9c;
+        
+    
+    }
+    nav.start-portfolio,a:nth-child(5):hover~.animation1{
+        width: 100px;
+        left: 385;
+        background-color: #1abc54;
+        
+    
+    }
+    .sec1{
+        /* width: 100%; */
+        height: 1900px;
+        /* border: 1px solid bisque; */
+        background-color: white;
+    }
+    .cir1{
+        width: 328px;
+        height: 328px;
+        border-radius: 500px;
+        background-image: url(hgghh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 70px;
+        animation: cir1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes cir1{
+        from{
+            transform: translateX(-50px)  rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .cir2{
+        width: 328px;
+        height: 328px;
+        border-radius: 500px;
+        background-image: url(ghhghgh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: 70px;
+        left: 90px;
+        animation: cir2;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes cir2{
+        from{
+            transform: translateX(-50px)  rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .cir3{
+        width: 150px;
+        height: 150px;
+        /* border: 1px solid black; */
+        border-radius: 100px;
+        background-color: #cdcdb6;
+        position: relative;
+        top: 80px;
+        left: 20px;
+        animation: cir3;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes cir3{
+        from{
+            transform: translateX(-50px)  rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .cir4{
+        width: 400px;
+        height: 400px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        background-position: 50% 50%;
+        object-fit: cover;
+        /* vertical-align: middle; */
+        background-size: cover;
+        position: relative;
+        top: 290px;
+        left: 50px;
+        align-items: center;
+        animation: cir1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes cir1{
+        from{
+            transform: translateX(-50px)  rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    .cir4 img{
+        width: 370px;
+        height: 370px;
+        border-radius: 500px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    } 
+    .cir5{
+        width: 250px;
+        height: 258px;
+        border-radius: 500px;
+        background-image: url(ghhhghhh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: -400px;
+        left: 200px;
+        animation: cir5;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes cir5{
+        from{
+            transform: translateX(-50px)  rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    h2{
+        width: 621px;
+        height: 198px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top:50px ;
+        left: -50px;
+        color: #b2a289;
+        font-family:  sans-serif;
+        line-height: 1;
+        font-weight: 500;
+        
+        /* left: 600px; */
+    }
+    .para1{
+        position: relative;
+        top: -50px;
+        color: black;
+        font-size: 12px;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+
+        position: relative;
+        top: -40px;
+        left: 180px;
+        border-radius: 5px;
+        color: #cdcdb6;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    button:hover{
+        background-color: #9a9a84;
+        color: white ;
+    }
+    
+    .sec2{
+        height: 1200px;
+        width: 100%;
+        /* border: 1px solid bisque; */
+        background-color: white;
+        position: relative;
+        background-image: url(rrrr-min.jpg);
+        object-fit: cover;
+       /* background-position:  50% 50%; */
+       background-repeat: no-repeat;
+       display: block;
+       top: -150px;
+    }
+    h3{
+        font-size: 30px;
+        position: relative;
+        top: 100px;
+        text-align: center;
+        
+    }
+    .sec02{
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        /* border: 1px solid black; */
+        display: block;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }
+    
+    .start{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+        color: black;
+        align-items: center;
+        animation: start;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes start{
+        from{
+            transform: translateX(-50px)  ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+        
+        
+    
+    .nail{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .help{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+        animation: help;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes help{
+        from{
+            transform: translateX(50px)  ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+        
+    
+    .pick{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .get{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .list{
+        width: 290px;
+        height: 130px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        text-align: left;
+        position: relative;
+        top: 10px;
+    }
+    .st{
+       position: relative;
+       left: -44px;
+       text-align: left;
+       font-size: 12px;
+       line-height: 1.5;
+        
+    
+    }
+    .sec3{
+        height: 3500px;
+    }
+    .crii1{
+        width: 350px;
+        height: 350px;
+        background-image: url(dfdf.jpg);
+        border-radius: 500px;
+        object-fit: cover;
+        background-size: cover;
+        vertical-align: middle;
+        background-position: 50% 50%;
+        position: relative;
+        left: 20px;
+        top: 120px;
+        animation: crii1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes crii1{
+        from{
+            transform: translateX(-50px)  rotateY(-360deg) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .crii2{
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        align-items: center;
+        position: relative;
+        left: 320px;
+        top: -350px;
+        animation: crii1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes crii1{
+        from{
+            transform: translateX(-50px)  rotateY(-360deg) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .white{
+        width: 65px;
+        height: 65px;
+        background-color: white;
+        border-radius: 500px;
+        position: absolute;
+        left: 18px;
+        top: 18px;
+    }
+    .crii3{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(gffgfgfgfg.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 100px;
+        top: -650px;
+        animation: crii1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes crii1{
+        from{
+            transform: translateX(-50px)  rotateY(-360deg) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .crii4{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 80px;
+        top: -150px;
+        animation: crii4;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes crii4{
+        from{
+            transform: translateX(-50px)  rotateY(-360deg) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .crii4 img{
+        width: 280px;
+        height: 280px;
+        border-radius: 500px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .crii5{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 280px;
+        top: 220px;
+        animation: crii5;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes crii5{
+        from{
+            transform: translateX(50px)  rotateY(-360deg) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    .forme{
+        position: relative;
+        top: -600px;
+        left: 200px;
+        animation: forme;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 2s;
+    }
+    
+    @keyframes forme{
+        from{
+            transform: translateX(-50px)   ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    .how{
+        color: black;
+        position: relative;
+        left: -140px;
+        top: 350px;
+        letter-spacing: 3;
+    
+    }
+    .paraa{
+        color: black;
+        position: relative;
+        top: 200px;
+        left: -140px;
+        font-size: 14px;
+        text-align: left;
+        line-height: 2;
+    }
+    .forme button{
+        width: 150px;
+        height: 50px;
+        position: relative;
+        color: #cdcdb6;
+        left: -140px;
+        border-color: #cdcdb6;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        top: 200px;
+    }
+    .color{
+        width: 100%;
+        height: 430px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: -150px;
+        background-color: #cdcdb6;
+    }
+    .wed{
+        position: relative;
+        top: 50px;
+        text-align: center;
+        color: black;
+        left: -50px;
+        /* letter-spacing: 2; */
+    
+        
+    }
+    .Lorem{
+        position: relative;
+        top: -110px;
+        font-size: 10px;
+        left: -500px;
+        color: black;
+        line-height: 2;
+    }
+    .box{
+        width: 100%;
+        height: 1100px;
+        /* border: 1px solid black; */
+        background-color: #f2f2f2;
+        position: relative;
+        top: -150px;
+        
+    }
+    #Planning{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 90px;
+        top: -1500px;
+        background-color: white;
+        border-radius: 20px;
+        animation: Planning;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes Planning{
+        from{
+            transform: translateY(50px);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+        
+    
+    #hug{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(beautiful-bride-with-her-husband-park_1157-19025.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    #party{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 90px;
+        top: -1480px;
+        background-color: white;
+        border-radius: 20px;
+    
+    
+    }
+    #folour{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(bows-rope-twine-pink-bouquets-white-chairs_8353-793.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+    #photo{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 90px;
+        top: -1460px;
+        background-color: white;
+        border-radius: 20px;
+    
+    
+    }
+    #ring{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(groom-holds-bride-s-hands-where-are-two-wedding-rings_8353-10454.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    
+    }
+    .box button{
+        position: absolute;
+        top: 1030px;
+        border-color: #cdcdb6;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        left: 160px;
+    }
+    #planning h4{
+        position: relative;
+        left: 110px;
+        top: 15px;
+        
+    }
+    #party h4{
+        position: relative;
+        left: 95px;
+        top: 15px;
+    }
+    #photo h4{
+        position: relative;
+        left: 90px;
+        top: 15px;
+    }
+    .amet{
+        font-size: 12px;
+        color: black;
+        letter-spacing: 1;
+        
+    }
+    .sec4{
+        /* width: 1500px; */
+        height: 100px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+    }
+    #criii1{
+        width: 250px;
+        height: 250px;
+        border-radius: 500px;
+        background-image: url(vccvcv.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 110px;
+        top: -1500px;
+        animation: criii1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii1{
+        from{
+            transform: translateX(-50px) rotateZ(-360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii2{
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 100px;
+        top: -1500px;
+        animation: criii2;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii2{
+        from{
+            transform: translateX(-50px) rotateZ(-360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii3{
+        width: 80px;
+        height: 80px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 220px;
+        top: -1500px;
+        animation: criii3;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii3{
+        from{
+            transform: translateX(-50px) rotateZ(-360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii3i{
+        width: 60px;
+        height: 60px;
+        border-radius: 500px;
+        background-color: white;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    #criii4{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(cvccv.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 170px;
+        top: -1430px;
+        animation: criii4;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii4{
+        from{
+            transform: translateX(50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii5{
+        width: 250px;
+        height: 250px;
+        border-radius: 500px;
+        background-image: url(vbvb-min.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 100px;
+        top: -1380px;
+        animation: criii5;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii5{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii6{
+        width: 500px;
+        height: 300px;
+        /* border: 0.5px solid black; */
+        position: absolute;
+        border-radius: 25px;
+        top: -435px;
+        left: 50px;
+        background-color: white;
+        color: black;
+        animation: criii6;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criii6{
+        from{
+            transform: translateX(-50px) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criii6 h1{
+        font-size: 36px;
+        justify-content: left;
+        position: relative;
+        left: 30px;
+    }
+    .sap{
+        color: black;
+        font-size: 12px;
+        position: relative;
+        text-align: left;
+        left: 37px;
+        line-height: 2.5;
+        justify-content: left;
+    }
+    #criii6 button{
+        height: 40px;
+        border-color: #cdcdb6;
+        position: absolute;
+        left: 38px;
+        top: 200px;
+        justify-content: left;
+    }
+    .sec5{
+        width: 100%;
+        height: 1280px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 750px;
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(pexelsphoto931162.jpeg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        background-size: cover;
+        vertical-align: middle;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .box3{
+        /* width: 1100px; */
+        height: 500px;
+        /* border: 1px solid white; */
+        margin: auto;
+        display: block;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        left: 100px;
+    
+    
+    
+    }
+    .out{
+        width: 300px;
+        height: 350px;
+        /* border: 1px solid black; */
+        position: relative;
+        /* left: 200px; */
+        background-image: url(pexelsphoto1819179.jpeg);
+        object-fit: contain;
+        background-position: 50% 50%;
+        background-size: cover;
+        top: -300px;
+        left: -10px;
+    
+    }
+    .huge{
+        width: 300px;
+        height: 350px;
+        /* border: 1px solid black; */
+        position: relative;
+        /* left: 200px; */
+        background-image: url(pexelsphoto1940583.jpeg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        background-size: cover;
+        top: -280px;
+        left: -10px;
+    }
+    #you{
+        font-size: 12px;
+        letter-spacing: 3;
+        justify-content: start;
+        position: relative;
+        top: 20px;
+    }
+    #beyond{
+        font-size: 10px;
+        line-height: 2;
+        position: relative;
+        top: -50px;
+        left: -30px;
+        letter-spacing: -1;
+    }
+    #abou{
+        font-size: 35px;
+        text-align: center;
+        position: relative;
+        left: -130px;
+    }
+    .we{
+        width: 300px;
+        height: 350px;
+        /* border: 1px solid black; */
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        /* left: 200px; */
+        top: -250px;
+        left: -10px;
+    
+    }
+    #more{
+        width: 110px;
+        height: 30px;
+        position: relative;
+        top: -80px;
+        left: 1px;
+        background-color: transparent;
+        border-color:#cdcdb6 ;
+        color: black;
+    }
+    #more:hover{
+        background-color: #cdcdb6;
+        color: black;
+    }
+    #more:hover a{
+      color: black;
+    }
+    .sec6{
+        /* width: 1500px; */
+        height: 1300px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 700px;
+    }
+    #criiii1{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image:url(jhhjjhj.jpg) ;
+        background-position: 50% 50%;
+        background-size: cover;
+        object-fit: cover;
+        position: relative;
+        left: 100px;
+        top: 200px;
+        animation: criii4;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiii1{
+        from{
+            transform: translateX(50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criiii2{
+        width: 120px;
+        height: 120px;
+        border-radius: 500px;
+        position: relative;
+        left: 300px ;
+        top: -100px;
+        background-color: #cdcdb6;
+        animation: criiii2;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiii2{
+        from{
+            transform: translateX(50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    #criiii2i{
+        width: 80px;
+        height: 80px;
+        border-radius: 500px;
+        background-color: white;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    #criiii3{
+        width: 280px;
+        height: 280px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 100px;
+        top: 600px;
+        animation: criiii3;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiii3{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+        
+    
+    
+    #criiii3i{
+        width: 250px;
+        height: 250px;
+        border-radius: 500px;
+        background-image: url(hgghhg5.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 15px;
+        top: 15px;
+    
+    }
+    #criiii4{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-image: url(gffgfgfgfg.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 50px;
+        top: 650px;
+        animation: criiii4;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiii4{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    #criiii5{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 30px;
+        top: -140px;
+        animation: criiii5;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiii5{
+        from{
+            transform: translateX(50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #lastbox{
+        width: 350px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 80px;
+        top: -650px;
+        justify-content: left;
+        animation: lastbox;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes lastbox{
+        from{
+            transform: translateX(-50px) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    #dress{
+        font-size: 30px;
+        position: relative;
+        left: -170px;
+        top: -10px;
+        line-height: 1;
+    }
+    #sap{
+        position: relative;
+        left: -69px;
+        top: -90px;
+        font-size: 12px;
+        line-height: 2;
+    }
+    #le{
+        position: relative;
+        top: -140px;
+        left: -5px;
+        background-color: #cdcdb6;
+        color: black;
+    
+    }
+    #le:hover{
+        background-color: black;
+        color: white;
+    }
+    #le a{
+       color: white;
+       border: none;
+    }
+    #sec7{
+        width: 100%;
+        height: 1300px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+        background-color: #cdcdb6;
+    }
+    #criiiii1{
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        background-color: #ebebdf;
+        position: relative;
+        left: 50px;
+        top: 50px;
+        animation: criiiii1;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiiii1{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    #criiiii1i{
+        width: 60px;
+        height: 60px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    
+    }
+    #criiiii2{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-image: url(jhjhjhjh.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 80px;
+        top: 70px;
+        animation: criiiii2;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiiii2{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    
+    
+    #criiiii3{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #ebebdf;
+        position: relative;
+        left: 220px;
+        top: -20px;
+        animation: criiiii3;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiiii3{
+        from{
+            transform: translateX(-50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    }
+    #criiiii4{
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        background-color: white;
+        position: relative;
+        left: 150px;
+        top: 10px;
+        animation: criiiii4;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes criiiii4{
+        from{
+            transform: translateX(50px) rotateZ(360deg);
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #criiiii4i{
+        width: 70px;
+        height: 70px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 15px;
+        top: 15px;
+    }
+    #lastform{
+        width: 400px;
+        border-radius: 15px;
+        height: 500px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 45px;
+        top: 50px;
+        background-color: white;
+        animation: lastform;
+        animation-duration: 5s;
+        transition: 1s;
+        animation-delay: 10s;
+    }
+    
+    @keyframes lastform{
+        from{
+            transform: translateY(-50px) ;
+    
+        }
+        to{
+            /* transform: translateY(500px); */
+        }
+    }
+    
+    #join{
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+        left: 25px;
+    }
+    form{
+        margin-left:20px ;
+        font-size: 14px;
+    
+    
+    }
+    
+    
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        width: 300px;
+        
+        padding: 5px;
+    }
+    
+    .input-group input{
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: whitesmoke;
+        margin-top: 10px;
+        padding: 10px;
+        /* border: none; */
+    }
+    
+    #form #bt{
+        background-color: #cdcdb6;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        color: black;
+        width: 300px;
+        border: none;
+    }
+    #form #bt:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    #Message{
+        width: 300px;
+        height: 100px;
+        background-color: whitesmoke;
+        justify-content: start;
+        /* border: none; */
+        
+    }
+    .sec8{
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid black; */
+        background-color: black;
+        position: relative;
+        top: 1000px;
+    }
+    #foot{
+        color: white;
+        position: relative;
+        left: 45px;
+    }
+    .input-group .error{
+        color: rgb(242,18,18);
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    
+}
+
+@media only screen and (min-width:768.5px) and (max-width:998px) {
+    body{
+        font-size: 12px;
+        font-family: sans-serif;
+        /* background-color: black; */
+        overflow-x: hidden;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+        
+    
+    
+    }
+    
+    #navi{
+        background-color: black;
+    }
+    
+    p{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 16px;
+        font-family: cursive;
+    }
+    span{
+        color: #2bd6b2;
+    }
+    button a{
+        text-decoration: none;
+        color: #cdcdb6;
+    }
+    
+    
+    
+    nav{
+      /* margin: 10px auto 0; */
+      position: relative;
+      width: 580px;
+      height: 50px;
+      left: 930px;
+      background-color: black;
+      border-radius: 8px;
+      font-size: 0; 
+    }
+    nav a{
+        line-height: 50px;
+        height: 100%;
+        font-size: 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    nav .animation1{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        z-index: 0;
+        transition: all.5s ease 0s;
+        border-radius: 8px;
+    
+    }
+    a:nth-child(1){
+        width: 100px;
+    }
+    a:nth-child(2){
+        width: 100px;
+    }
+    a:nth-child(3){
+        width: 100px;
+    }
+    a:nth-child(4){
+        width: 100px;
+    }
+    a:nth-child(5){
+        width: 100px;
+    }
+    nav.start-home,a:nth-child(1):hover~.animation1{
+        width: 100px;
+        left: 0;
+        background-color: #1abc9c;
+    
+    
+    }
+    nav.start-About,a:nth-child(2):hover~.animation1{
+        width: 110px;
+        left: 100;
+        background-color:#e74c3c;
+        
+    
+    }
+    nav.start-contact,a:nth-child(3):hover~.animation1{
+        width: 100px;
+        left: 210;
+        background-color: #3498db;
+    }
+    nav.start-blog,a:nth-child(4):hover~.animation1{
+        width: 100px;
+        left: 300;
+        background-color: #1abc9c;
+        
+    
+    }
+    nav.start-portfolio,a:nth-child(5):hover~.animation1{
+        width: 100px;
+        left: 400;
+        background-color: #1abc54;
+        
+    
+    }
+    .sec1{
+        width: 100%;
+        height: 1450px;
+        border: 1px solid bisque;
+        background-color: white;
+    }
+    .cir1{
+        width: 328px;
+        height: 328px;
+        border-radius: 500px;
+        background-image: url(hgghh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: 100px;
+        left: 30px;
+        animation: cir1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    }
+    
+    
+    @keyframes cir1{
+    0%{
+        transform: translate(-300px) rotate(360deg);
+    }
+    
+    100%{
+        transform: translateX(0) rotate(0deg);
+    }
+    
+    }
+    
+    .cir2{
+        width: 328px;
+        height: 328px;
+        border-radius: 500px;
+        background-image: url(ghhghgh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: -280px;
+        left: 400px;
+        animation: cir1;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    @keyframes cir2{
+        0%{
+            transform: translateX(-600px) rotate(-360deg);
+        }
+    
+        100%{
+            transform: translateX(0) rotate(0deg);
+        }
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    .cir3{
+        width: 150px;
+        height: 150px;
+        /* border: 1px solid black; */
+        border-radius: 100px;
+        background-color: #cdcdb6;
+        position: relative;
+        top: -150px;
+        left: 20px;
+        animation: cir3;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    @keyframes cir3{
+        from{
+            transform: translate(-300px) rotate(-360deg);
+        }
+    
+    
+    
+    
+    }
+    
+    
+    .cir4{
+        width: 400px;
+        height: 400px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        background-position: 50% 50%;
+        object-fit: cover;
+        /* vertical-align: middle; */
+        background-size: cover;
+        position: relative;
+        top: -200px;
+        left: 150px;
+        align-items: center;
+        animation: cir4;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    @keyframes cir4{
+        from{
+            transform: translate(-300px) rotate(-360deg);
+        }
+    
+    
+    
+    
+    }
+    
+    
+    
+    .cir4 img{
+        width: 370px;
+        height: 370px;
+        border-radius: 500px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    } 
+    .cir5{
+        width: 250px;
+        height: 258px;
+        border-radius: 500px;
+        background-image: url(ghhhghhh.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: -800px;
+        left: 500px;
+        animation: cir5;
+        animation-duration: 5s;
+        animation-delay: 2s;
+    }
+    @keyframes cir5{
+        from{
+            transform: translate(-300px) rotate(-360deg);
+        }
+    
+    
+    
+    
+    }
+    
+    
+    h2{
+        width: 621px;
+        height: 198px;
+        font-size: 38px;
+        text-align: center;
+        position: relative;
+        top:-430px ;
+        left: 50px;
+        color: #b2a289;
+        font-family:  sans-serif;
+        line-height: 1.2;
+        font-weight: 500;
+        
+        /* left: 600px; */
+    }
+    .para1{
+        position: relative;
+        top: -490px;
+        color: black;
+    }
+    button{
+        width: 150px;
+        height: 30px;
+        position: relative;
+        top: -460px;
+        left: 280px;
+        border-radius: 5px;
+        color: #cdcdb6;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    button:hover{
+        background-color: #9a9a84;
+        color: white ;
+    }
+    
+    .sec2{
+        height: 800px;
+        /* border: 1px solid bisque; */
+        background-color: white;
+        position: relative;
+       background-image:  linear-gradient(0deg, rgba(235, 235, 223, 0.15), rgba(235, 235, 223, 0.15)), url(rrrr-min.jpg);        
+        object-fit: cover;
+        background-size: cover;
+       background-position:  50% 50%;
+       background-repeat: no-repeat;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+       justify-content: center;
+       align-items: center;
+    }
+    h3{
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+        
+    }
+    .sec02{
+        width: 1250px;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        left: 20px;
+        top: -150px;
+    }
+    
+    .start{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+        color: black;
+        
+        
+    }
+    .nail{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .help{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .pick{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .get{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    .list{
+        width: 300px;
+        height: 180px;
+        /* border: 1px solid black; */
+        background-color: white;
+    }
+    h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        text-align: left;
+        position: relative;
+        left:20px ;
+    }
+    .st{
+       position: relative;
+       left: -45px;
+       text-align: left;
+       font-size: 12px;
+       line-height: 2;
+        
+    
+    }
+    .sec3{
+        height: 1900px;
+    }
+    .crii1{
+        width: 450px;
+        height: 450px;
+        background-image: url(dfdf.jpg);
+        border-radius: 500px;
+        object-fit: cover;
+        background-size: cover;
+        vertical-align: middle;
+        background-position: 50% 50%;
+        position: relative;
+        left: 100px;
+        top: 200px;
+    }
+    .crii2{
+        width: 120px;
+        height: 120px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        align-items: center;
+        position: relative;
+        left: 300px;
+        top: -400px;
+    }
+    .white{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 500px;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .crii3{
+        width: 180px;
+        height: 180px;
+        border-radius: 500px;
+        background-image: url(gffgfgfgfg.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 500px;
+        top: -450px;
+    }
+    .crii4{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 400px;
+        top: -100px;
+    }
+    .crii4 img{
+        width: 280px;
+        height: 280px;
+        border-radius: 500px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .crii5{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 500px;
+        top: 300px;
+    }
+    .forme{
+        position: relative;
+        top: 50px;
+    
+    }
+    .how{
+        color: black;
+        position: relative;
+        left: 60px;
+        text-align: left;
+        letter-spacing: 3;
+        top: -280px;
+    
+    }
+    .paraa{
+        color: black;
+        position: relative;
+        top: -400px;
+        left: 60px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .forme button{
+        width: 150px;
+        height: 50px;
+        position: relative;
+        color: #cdcdb6;
+        left: 60px;
+        border-color: #cdcdb6;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 700;
+        top: -390px;
+    }
+    .color{
+        /* width: 1500px; */
+        height: 500px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 10px;
+        background-color: #cdcdb6;
+    }
+    .wed{
+        position: relative;
+        top: 50px;
+        text-align: center;
+        color: black;
+        left: 40px;
+        letter-spacing: 2;
+    
+        
+    }
+    .Lorem{
+        position: relative;
+        top: -110px;
+        font-size: 11px;
+        left: -400px;
+        justify-content: center;
+        color: black;
+        line-height: 2;
+    }
+    .box{
+        width: 1500px;
+        height: 800px;
+        /* border: 1px solid black; */
+        background-color: #f2f2f2;
+        position: relative;
+        top: -100px;
+    }
+    #Planning{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 80px;
+        top: -1080;
+        background-color: white;
+        border-radius: 20px;
+    }
+    #hug{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(beautiful-bride-with-her-husband-park_1157-19025.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    #party{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 420px;
+        top: -1480px;
+        background-color: white;
+        border-radius: 20px;
+    
+    
+    }
+    #folour{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(bows-rope-twine-pink-bouquets-white-chairs_8353-793.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+    #photo{
+        width: 300px;
+        height: 400px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 80px;
+        top: -1400px;
+        background-color: white;
+        border-radius: 20px;
+    
+    
+    }
+    #ring{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image: url(groom-holds-bride-s-hands-where-are-two-wedding-rings_8353-10454.jpg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    
+    }
+    .box button{
+        position: absolute;
+        top: 740px;
+        border-color: #cdcdb6;
+        border-radius: 10px;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    #planning h4{
+        position: relative;
+        left: 110px;
+        top: 15px;
+        
+    }
+    #party h4{
+        position: relative;
+        left: 95px;
+        top: 15px;
+    }
+    #photo h4{
+        position: relative;
+        left: 90px;
+        top: 15px;
+    }
+    .amet{
+        font-size: 12px;
+        color: black;
+        letter-spacing: 1;
+        
+    }
+    .sec4{
+        /* width: 1500px; */
+        height: 1350px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+    }
+    #criii1{
+        width: 250px;
+        height: 250px;
+        border-radius: 500px;
+        background-image: url(vccvcv.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 200px;
+        top: 50px;
+    }
+    #criii2{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 100px;
+        top: 100px;
+    }
+    #criii3{
+        width: 120px;
+        height: 120px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 200px;
+        top: 120px;
+    }
+    #criii3i{
+        width: 80px;
+        height: 80px;
+        border-radius: 500px;
+        background-color: white;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    #criii4{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-image: url(cvccv.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 300px;
+        top: -230px;
+    }
+    #criii5{
+        width: 450px;
+        height: 450px;
+        border-radius: 500px;
+        background-image: url(vbvb-min.jpg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        vertical-align: middle;
+        background-size: cover;
+        position: relative;
+        left: 150px;
+        top: -150px;
+    }
+    #criii6{
+        width: 500px;
+        height: 300px;
+        /* border: 0.5px solid black; */
+        position: absolute;
+        border-radius: 25px;
+        top: 1030px;
+        left: 250px;
+        background-color: white;
+        color: black;
+    }
+    #criii6 h1{
+        font-size: 36px;
+        justify-content: left;
+        position: relative;
+        left: 30px;
+    }
+    .sap{
+        color: black;
+        font-size: 12px;
+        position: relative;
+        text-align: left;
+        left: 37px;
+        line-height: 2.5;
+        justify-content: left;
+    }
+    #criii6 button{
+        height: 40px;
+        border-color: #cdcdb6;
+        position: absolute;
+        left: 38px;
+        top: 200px;
+        justify-content: left;
+    }
+    .sec5{
+        /* width: 1500px; */
+        height: 700px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+        background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(pexelsphoto931162.jpeg);
+        background-position: 50% 50%;
+        object-fit: cover;
+        background-size: cover;
+        vertical-align: middle;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .box3{
+        width: 1100px;
+        height: 500px;
+        /* border: 1px solid white; */
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        left: -150px;
+    
+    
+    
+    }
+    .out{
+        width: 200px;
+        height: 550px;
+        /* border: 1px solid black; */
+        position: relative;
+        /* left: 200px; */
+        background-image: url(pexelsphoto1819179.jpeg);
+        object-fit: contain;
+        background-position: 50% 50%;
+        background-size: cover;
+    
+    }
+    .huge{
+        width: 200px;
+        height: 550px;
+        /* border: 1px solid black; */
+        position: relative;
+        /* left: 200px; */
+        background-image: url(pexelsphoto1940583.jpeg);
+        object-fit: cover;
+        background-position: 50% 50%;
+        background-size: cover;
+    
+    }
+    #you{
+        font-size: 12px;
+        letter-spacing: 3;
+        justify-content: start;
+        position: relative;
+    }
+    #beyond{
+        font-size: 10px;
+        line-height: 3;
+        position: relative;
+        top: -50px;
+        left: -20px;
+        display: flex;
+        justify-content: center;
+    }
+    #abou{
+        width: 150px;
+        font-size: 35px;
+        position: relative;
+        left: -175px;
+    }
+    .we{
+        width: 200px;
+        height: 550px;
+        /* border: 1px solid black; */
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        /* left: 200px; */
+    
+    }
+    #more{
+        width: 110px;
+        height: 30px;
+        position: relative;
+        top: 100px;
+        left: 1px;
+        background-color: transparent;
+        border-color:#cdcdb6 ;
+        color: black;
+    }
+    #more:hover{
+        background-color: #cdcdb6;
+        color: black;
+    }
+    #more:hover a{
+      color: black;
+    }
+    .sec6{
+        /* width: 1500px; */
+        height: 1450px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+    }
+    #criiii1{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-image:url(jhhjjhj.jpg) ;
+        background-position: 50% 50%;
+        background-size: cover;
+        object-fit: cover;
+        position: relative;
+        left: 120px;
+        top: 200px;
+    }
+    #criiii2{
+        width: 120px;
+        height: 120px;
+        border-radius: 500px;
+        position: relative;
+        left:290px ;
+        top: -120px;
+        background-color: #cdcdb6;
+    
+    }
+    #criiii2i{
+        width: 80px;
+        height: 80px;
+        border-radius: 500px;
+        background-color: white;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    #criiii3{
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 150px;
+        top: 100px;
+    
+    }
+    #criiii3i{
+        width: 280px;
+        height: 280px;
+        border-radius: 500px;
+        background-image: url(hgghhg5.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    
+    }
+    #criiii4{
+        width: 450px;
+        height: 450px;
+        border-radius: 500px;
+        background-image: url(gffgfgfgfg.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 200px;
+        top: 300px;
+    
+    }
+    #criiii5{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 200px;
+        top: -300px;
+    }
+    #lastbox{
+        width: 340px;
+        height: 380px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 370px;
+        top: -890px;
+        background-color: white;
+        padding: 20px;
+    
+    }
+    #dress{
+        font-size: 35px;
+        position: relative;
+        left: -190px;
+        top: -10px;
+        line-height: 1.2;
+    }
+    #sap{
+        position: relative;
+        left: -65px;
+        top: -120px;
+        font-size: 13px;
+        line-height: 2;
+    }
+    #le{
+        position: relative;
+        top: -140px;
+        left: 6px;
+        background-color: #cdcdb6;
+        color: black;
+        border: #cdcdb6;
+    
+    }
+    #le:hover{
+        background-color: black;
+        color: white;
+    }
+    #le a{
+       color: white;
+       /* border: none; */
+    }
+    #sec7{
+        /* width: 1500px; */
+        height: 1200px;
+        /* border: 1px solid black; */
+        position: relative;
+        top: 1000px;
+        background-color: #cdcdb6;
+    }
+    #criiiii1{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        background-color: #ebebdf;
+        position: relative;
+        left: 50px;
+        top: 50px;
+    
+    }
+    #criiiii1i{
+        width: 100px;
+        height: 100px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 25px;
+        top: 25px;
+    
+    }
+    #criiiii2{
+        width: 450px;
+        height: 450px;
+        border-radius: 500px;
+        background-image: url(jhjhjhjh.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+        left: 220px;
+        top: -100px;
+    
+    
+    }
+    #criiiii3{
+        width: 200px;
+        height: 200px;
+        border-radius: 500px;
+        background-color: #ebebdf;
+        position: relative;
+        left: 470px;
+        top: -220px;
+    }
+    #criiiii4{
+        width: 130px;
+        height: 130px;
+        border-radius: 500px;
+        background-color: white;
+        position: relative;
+        left: 500px;
+        top: 200px;
+    }
+    #criiiii4i{
+        width: 90px;
+        height: 90px;
+        border-radius: 500px;
+        background-color: #cdcdb6;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    #lastform{
+        width: 400px;
+        border-radius: 15px;
+        height: 500px;
+        /* border: 1px solid black; */
+        position: relative;
+        left: 150px;
+        top: -500px;
+        background-color: white;
+    }
+    #join{
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+        left: 5px;
+    }
+    form{
+        margin-left:20px ;
+        font-size: 14px;
+    
+    
+    }
+    
+    
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        width: 300px;
+        padding: 5px;
+    }
+    
+    .input-group input{
+        border-radius: 5px;
+        font-size: 12px;
+        background-color: whitesmoke;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+    }
+    
+    #form #bt{
+        background-color: #cdcdb6;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        color: black;
+        width: 300px;
+        border: none;
+    }
+    #form #bt:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    #Message{
+        width: 300px;
+        height: 100px;
+        background-color: whitesmoke;
+        justify-content: start;
+        border: none;
+        
+    }
+    .sec8{
+        /* width: 1500px; */
+        height: 100px;
+        border: 1px solid black;
+        background-color: black;
+        position: relative;
+        top: 1000px;
+    }
+    #foot{
+        color: white;
+        position: relative;
+        left: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
